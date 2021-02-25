@@ -31,6 +31,6 @@ find /data/class/ecoevo283/public/RAWDATA/ATACseq/ > ATACnames.txt
 
 ```
 
-I import this file into R and run [ATAC R code](ATACseqimport.R). Which produces the file [ATAC path](ATACseqpath.csv) that
+I import this file into R and run [ATAC R code](ATACseqImport.R). Which produces the file [ATAC path](ATACseqpath.csv) that
 I used as input file for my [ATAC python import](pythonimportatac.py). The example file of my tree is the following, [tree](Tree.txt).
 I ran fastq on P004_R1.fq.gz and here is the [base quality](per_base_quality.png).  
